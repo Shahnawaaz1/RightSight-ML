@@ -15,7 +15,11 @@ with tab1:
     st.write("Below is the analytics dashboard created in Power BI (exported as image).")
     
     # Add your dashboard image file here (export from Power BI)
-    st.image("dashboard.png", caption="Ola Booking Dashboard", use_column_width=True)
+    st.image("Overall.png", caption="Ola Booking Dashboard", use_column_width=True)
+    st.image("Vehicle type.png", caption="Ola Booking Dashboard", use_column_width=True)
+    st.image("Revenue.png", caption="Ola Booking Dashboard", use_column_width=True)
+    st.image("Cancellation.png", caption="Ola Booking Dashboard", use_column_width=True)
+    st.image("Rating.png", caption="Ola Booking Dashboard", use_column_width=True)
 
 # ---------------------- Dataset Tab ----------------------
 with tab2:
